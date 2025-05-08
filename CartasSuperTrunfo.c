@@ -1,22 +1,86 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
-
 int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    char estado1[20], estado2[20];
+    char cdc1[20], cdc2[20];
+    char nome1[20], nome2[20];
+    float populacao1, populacao2;
+    float area1, area2;
+    int pib1, pib2;
+    int pt1, pt2;
 
-    return 0;
+    printf("Carta 1\n");
+    printf("Digite o estado: ");
+    scanf("%s",&estado1);
+
+    printf("digite o codigo da carta: ");
+    scanf("%s",&cdc1);
+
+    printf("digite nome da cidade: ");
+    scanf("%s", &nome1);
+    
+    printf("numero da população: ");
+    scanf("%f", &populacao1);
+
+    printf("Digite a área: ");
+    scanf("%f", &area1);
+
+    printf("Digite o PIB: ");
+    scanf("%d", &pib1);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf("%d", &pt1);
+
+    printf("Carta 1:\n");
+
+    printf("estado: %s\n",estado1);
+    printf("Codigo da carta: %s\n",cdc1);
+    printf("Nome da cidade: %s\n",nome1);
+    printf("População: %f\n",populacao1);
+    printf("Área: %f\n",area1);
+    printf("PIB: %d\n",pib1);
+    printf("Ponto turisticos: %d",pt1);
+
+    printf("Carta 2\n");
+    printf("Digite o estado: ");
+    scanf("%s",&estado2);
+
+    printf("digite o codigo da carta: ");
+    scanf("%s",&cdc2);
+
+    printf("digite nome da cidade: ");
+    scanf("%s", &nome2);
+    
+    printf("numero da população: ");
+    scanf("%f", &populacao2);
+
+    printf("Digite a área: ");
+    scanf("%f", &area2);
+
+    printf("Digite o PIB: ");
+    scanf("%d", &pib2);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf("%d", &pt2);
+
+    printf("Carta 2:\n");
+
+    printf("estado: %s\n",estado2);
+    printf("Codigo da carta: %s\n",cdc2);
+    printf("Nome da cidade: %s\n",nome2);
+    printf("População: %f\n",populacao2);//Nao entendi porque a função float, quando coloco um "." no meio do numero, 80.000 por exemplo, aparece mais 3 zeros depois do numero
+    printf("Área: %f\n",area2);
+    printf("PIB: %d\n",pib2);
+    printf("Ponto turisticos: %d\n",pt2);
+   
+
+
+    
+
+
+
+
+
+    
 }
